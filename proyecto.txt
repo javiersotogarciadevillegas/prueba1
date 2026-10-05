@@ -1,0 +1,26 @@
+video de youtube    https://youtu.be/zN84-aabOSk?list=PL7HAy5R0ehQX1qKz4VqrXS0rnQx4UMm37
+
+este es un archivo de prueba para a prender Git
+https://github.com/javiersotogarciadevillegas/prueba1.git
+
+echo "# prueba1" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/javiersotogarciadevillegas/prueba1.git
+git status
+
+   ... para añadir nuestro ficheros al github uno a uno se hace asi
+git add proyecto.txt
+git add script.py 
+pero todos de golpe se hace asi
+git add .
+===========================
+Flujo recomendado para subir todo de golpe:
+git add .
+git commit -m "Añadidos proyecto.txt y script.py"
+git push
+========================
+ git push -u origin main
+
